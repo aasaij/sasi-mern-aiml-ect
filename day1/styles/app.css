@@ -1,0 +1,24 @@
+header,
+footer {
+  margin: 0px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: black; */
+  padding: 2px;
+  /* margin: 10px 20px 30px 40px; */
+  /* margin-bottom: 10px; */
+}
+main {
+  padding: 5px;
+  margin: 0px;
+  width: 100%;
+  min-height: 70.7vh;
+  background-color: yellow;
+}
+ul > li {
+  display: inline;
+}
