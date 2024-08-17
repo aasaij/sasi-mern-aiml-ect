@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>My Calculator</h1>
+
+      <form>
+        <input type="text" readonly id="txtDisplay" />
+        <div class="keys">
+          <button type="button" onclick="numberPress('7')">7</button>
+          <button type="button" onclick="numberPress('8')">8</button>
+          <button type="button" onclick="numberPress('9')">9</button>
+          <button type="button" onclick="numberPress('+')">+</button>
+          <button type="button" onclick="numberPress('4')">4</button>
+          <button type="button" onclick="numberPress('5')">5</button>
+          <button type="button" onclick="numberPress('6')">6</button>
+          <button type="button" onclick="numberPress('-')">-</button>
+          <button type="button" onclick="numberPress('1')">1</button>
+          <button type="button" onclick="numberPress('2')">2</button>
+          <button type="button" onclick="numberPress('3')">3</button>
+          <button type="button" onclick="numberPress('*')">x</button>
+          <button type="button" onclick="numberPress('0')">0</button>
+          <button type="button" onclick="numberPress('.')">.</button>
+          <button type="button" onclick="numberPress('/')">/</button>
+          <button type="button" onclick="calculate()">=</button>
+          <button type="button" onclick="numberPress('%')">%</button>
+          <button type="reset">C</button>
+          <button type="button" onclick="backspace()">BS</button>
+          <button type="button" onclick="save('')">M</button>
+          <button type="button" onclick="save('+')">M+</button>
+          <button type="button" onclick="save('-')">M-</button>
+          <button type="button" onclick="restore()">MR</button>
+          <button type="button" onclick="clearMemory()">MC</button>
+        </div>
+      </form>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
